@@ -1,6 +1,7 @@
 //The class does not contain a full implementation of components, just an example
 //Implementing the unity editor extension
 
+
 #if UNITY_EDITOR
 [CustomEditor(typeof(AIPath))]
 public class PathCreator : Editor
