@@ -1,3 +1,5 @@
+//The class does not contain a full implementation of components, just an example
+
 using System;
 using System.Linq;
 using System.Runtime.InteropServices;
