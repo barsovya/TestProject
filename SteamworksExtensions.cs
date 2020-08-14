@@ -1,4 +1,5 @@
 //The class does not contain a full implementation of components, just an example
+//Implementing the standard library extension
 
 using System;
 using System.Linq;
