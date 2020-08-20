@@ -44,8 +44,6 @@ public class Chat : SingletonBehaviour<Chat>
             PoolManager.Instantiate(MessagePrefab, MessagePrefab.transform.position, MessagePrefab.transform.rotation);
 
         newMessageView.transform.SetParent(ChatContent.transform);
-        newMessageView.transform.position = MessagePrefab.transform.position;
-        newMessageView.transform.localScale = MessagePrefab.transform.localScale;
         newMessageView.GetComponent<TextMeshProUGUI>().text = newMessage;
 
         CheckOvercrowdingOfChat();
